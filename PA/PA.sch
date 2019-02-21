@@ -279,7 +279,7 @@ F 3 "" H 4200 2250 60  0001 C CNN
 	1    4200 2250
 	1    0    0    -1  
 $EndComp
-Text GLabel 4950 2250 2    60   Input ~ 0
+Text GLabel 4800 1900 2    60   Input ~ 0
 AMPINPUT
 Text GLabel 8200 3050 0    60   Input ~ 0
 AMPOUTPUT
@@ -1505,7 +1505,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 1200 3900 1400
 Wire Wire Line
-	3650 550  3650 1800
+	3650 550  3650 1000
 Wire Wire Line
 	3650 1000 3750 1000
 Wire Wire Line
@@ -1515,7 +1515,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 1700 4700 1700
 Wire Wire Line
-	4700 2250 4950 2250
+	4700 2250 5350 2250
 Wire Wire Line
 	2350 2100 2950 2100
 Wire Wire Line
@@ -1539,14 +1539,8 @@ Wire Wire Line
 	3250 2200 3250 2100
 Connection ~ 3400 2100
 Wire Wire Line
-	3550 2150 3650 2150
-Wire Wire Line
-	3550 1450 3550 2150
-Wire Wire Line
-	1550 1450 3550 1450
+	1550 1450 3450 1450
 Connection ~ 1550 1900
-Wire Wire Line
-	4700 1900 5200 1900
 Wire Wire Line
 	1550 4950 1550 4850
 Wire Wire Line
@@ -1754,7 +1748,6 @@ Wire Wire Line
 	1950 1000 1800 1000
 Wire Wire Line
 	1800 1000 1800 1450
-Connection ~ 1800 1450
 Wire Wire Line
 	1850 1250 1850 1100
 Wire Wire Line
@@ -1826,7 +1819,6 @@ Wire Wire Line
 Connection ~ 4350 6450
 Wire Wire Line
 	3650 550  3800 550 
-Connection ~ 3650 1000
 Wire Wire Line
 	3750 750  3750 650 
 Wire Wire Line
@@ -1839,10 +1831,6 @@ Wire Wire Line
 	8250 3050 8250 3300
 Wire Wire Line
 	8250 4100 8250 3800
-Wire Wire Line
-	5400 1250 5200 1250
-Wire Wire Line
-	5200 1250 5200 1900
 Wire Wire Line
 	5300 800  5500 800 
 Wire Wire Line
@@ -1925,4 +1913,22 @@ Wire Wire Line
 	6700 2350 6600 2350
 Wire Wire Line
 	6850 2650 6850 2800
+Wire Wire Line
+	5400 1250 5350 1250
+Wire Wire Line
+	5350 1250 5350 2250
+Wire Wire Line
+	4800 1900 4700 1900
+Connection ~ 1800 1450
+Wire Wire Line
+	3550 2150 3650 2150
+Wire Wire Line
+	3650 1800 3450 1800
+Wire Wire Line
+	3450 1800 3450 1450
+Wire Wire Line
+	3550 2150 3550 750 
+Wire Wire Line
+	3550 750  3650 750 
+Connection ~ 3650 750 
 $EndSCHEMATC
